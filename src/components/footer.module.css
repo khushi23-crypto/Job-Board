@@ -1,0 +1,141 @@
+.footer {
+  background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
+  color: #fff;
+  padding: 2.5rem 0 1rem 0;
+  margin-top: 3rem;
+  box-shadow: 0 -2px 16px 0 rgba(37,99,235,0.10);
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+}
+
+.footerCol {
+  min-width: 180px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.logoIcon {
+  font-size: 2.2rem;
+  background: #fff;
+  border-radius: 0.7rem;
+  padding: 0.3rem;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.10);
+}
+
+.logoText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-family: 'Sora', sans-serif;
+}
+
+.aboutText {
+  color: #e0e7ef;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.socials {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.socialIcon {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: transform 0.2s, color 0.2s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.socialIcon:hover {
+  color: #fbbf24;
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.footerCol h4 {
+  font-size: 1.13rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.footerCol ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerCol ul li {
+  margin-bottom: 0.7rem;
+}
+
+.footerCol ul li a {
+  color: #e0e7ef;
+  text-decoration: none;
+  font-size: 1.04rem;
+  transition: color 0.2s;
+}
+
+.footerCol ul li a:hover {
+  color: #fbbf24;
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  color: #e0e7ef;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+@media (max-width: 900px) {
+  .footerGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .footerContent {
+    padding: 0 1rem;
+  }
+}
+/* Add this at the end of your footer.module.css */
+.footerFeatureBar {
+  width: 100%;
+  overflow: hidden;
+  background: #f1f5fd;
+  border-radius: 1rem 1rem 0 0;
+  margin-bottom: 1.5rem;
+  padding: 0.7rem 0;
+  box-shadow: 0 -2px 12px 0 rgba(37,99,235,0.07);
+}
