@@ -24,7 +24,7 @@ const popupVariants = {
     opacity: 1,
     scale: 1,
     y: 0,
-    transition: { delay: i * 0.13, duration: 0.5, type: "spring", bounce: 0.35 }
+    transition: { delay: i * 0.13, duration: 0.5,}
   })
 };
 

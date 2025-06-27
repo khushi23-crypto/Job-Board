@@ -31,7 +31,8 @@ const itemVariants = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.12, duration: 0.5, type: "spring" }
+    transition: { delay: i * 0.12, duration: 0.5, 
+     }
   })
 };
 
@@ -66,7 +67,14 @@ const FaqSection: React.FC = () => {
       {/* Right Side FAQ in Rectangle */}
       <motion.div
         className={styles.faqRectangle}
-        animate={rectangleMotion.animate}
+        animate={{
+  y: [0, -10, 0],
+  transition: {
+    duration: 2,
+    repeat: Infinity,
+    ease: "easeInOut"
+  }
+}}
       >
         <section className={styles.faqSection}>
           <motion.h2
