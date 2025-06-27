@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import styles from "./resources.module.css";
+import styles from "./resource.module.css";
 
 const resources = [
   { name: "Blog", href: "#", icon: "📝" },
