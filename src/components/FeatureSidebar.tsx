@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Resource from "./Resource";
 import About from "./About";
 import Solution from "./Solution";
-import styles from "./featureSidebar.module.css";
+import styles from "./FeatureSidebar.module.css";
 
 const features = [
   { name: "FuturePath", icon: "🚀", logo: "/logos/futurepath.png" },
