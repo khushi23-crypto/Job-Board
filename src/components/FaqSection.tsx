@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import styles from "./faqSection.module.css";
+import styles from "./FaqSection.module.css";
 
 const faqs = [
   {
