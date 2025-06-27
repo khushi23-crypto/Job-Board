@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Resource from "./resource";
-import About from "./about";
-import Solution from "./solution";
+import Resource from "./Resource";
+import About from "./About";
+import Solution from "./Solution";
 import styles from "./featureSidebar.module.css";
 
 const features = [

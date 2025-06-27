@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import styles from "./faqSection.module.css";
+import styles from "./FaqSection.module.css";
 
 const faqs = [
   {
@@ -48,7 +48,7 @@ const rectangleMotion = {
     transition: {
       duration: 6,
       repeat: Infinity,
-      ease: "easeInOut"
+      ease: [0.42, 0, 0.58, 1],
     }
   }
 };

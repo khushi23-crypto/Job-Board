@@ -1,10 +1,10 @@
 import React from "react";
-import Nav from "../components/nav";
-import Hero from "../components/hero";
-import Scroll from "../components/scroll";
+import Nav from "../components/Nav";
+import Hero from "../components/Hero";
+import Scroll from "../components/Scroll";
 import FeatureSidebar from "../components/FeatureSidebar";
 import FaqSection from "@/components/FaqSection";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 const HomePage: React.FC = () => {
   return (
