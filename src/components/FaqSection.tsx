@@ -37,22 +37,15 @@ const itemVariants = {
 
 const rectangleMotion = {
   animate: {
-    y: [0, -10, 0, 10, 0],
-    boxShadow: [
-      "0 8px 32px 0 rgba(37,99,235,0.18)",
-      "0 16px 32px 0 rgba(37,99,235,0.12)",
-      "0 8px 32px 0 rgba(37,99,235,0.18)",
-      "0 0px 32px 0 rgba(37,99,235,0.10)",
-      "0 8px 32px 0 rgba(37,99,235,0.18)"
-    ],
+    y: [0, -10, 0],
+    boxShadow: ["0px 0px 0px rgba(0,0,0,0.2)", "0px 10px 20px rgba(0,0,0,0.4)", "0px 0px 0px rgba(0,0,0,0.2)"],
     transition: {
-      duration: 6,
+      duration: 2,
       repeat: Infinity,
-      ease: [0.42, 0, 0.58, 1],
+      ease: "easeInOut" // Use a named easing function
     }
   }
 };
-
 const FaqSection: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
